@@ -4,7 +4,7 @@ function initMap() {
     // Instantiate a directions service.
     var directionsService = new google.maps.DirectionsService;
   
-    // Create a map and center it on Manhattan.
+    // Create a map and center Ukraine.
     var map = new google.maps.Map(document.getElementById('map'), {
       zoom:3,
       center: {lat: 50.45466, lng: 30.5238}
